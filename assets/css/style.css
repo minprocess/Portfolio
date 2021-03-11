@@ -1,0 +1,66 @@
+
+.header1 {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header1 h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.nav1 {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav1 ul {
+    list-style-type: none;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.services {
+    display: grid;
+}
+
+.gridzzz {
+  display: grid;
+  width: 100%;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-auto-rows: auto; /* 2em */
+    grid-gap: .5em;
+  }
+  
