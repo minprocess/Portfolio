@@ -1,18 +1,14 @@
 
-.header1 {
-    padding: 20px;
+.header {
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header1 h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .nav1 {
@@ -30,6 +26,16 @@
 .nav1 ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.nav1 ul li a {
+  color:gold;
+}
+
+/* size of photo of William Pate*/
+.resize {
+  max-width:100px;
+  max-height:100px;
 }
 
 .services {
