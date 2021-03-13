@@ -65,9 +65,10 @@
   }
   
   .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    object-fit:cover;
+    display: inline;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* object-fit:cover; */
     background-color: DodgerBlue;
   }
   
