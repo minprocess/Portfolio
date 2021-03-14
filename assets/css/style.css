@@ -8,7 +8,7 @@
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .nav1 {
@@ -47,14 +47,12 @@
   width: 100%;
 }
 
+.hero {
+     width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
-/* Create two unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
   .left {
     width: 25%;
   }
