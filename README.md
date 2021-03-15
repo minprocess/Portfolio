@@ -26,7 +26,7 @@ The following table is how this page is supposed to perform.
 | I click on the images of the applications | I am taken to that deployed application | Done | B |
 | I resize the page or view the site on various screens and devices | I am presented with a responsive layout that adapts to my viewport | F |
 
-</br>
+## Screenshot
 ![Screenshot](assets/images/screenshot.png)
 
 ## Credits
