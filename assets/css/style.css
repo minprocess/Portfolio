@@ -38,10 +38,6 @@
   max-height:100px;
 }
 
-.grid1 {
-    display: grid;
-}
-
 .banner {
     width: 100%;
     height: auto;
@@ -69,22 +65,63 @@
     font-size: 16px;
   }
 
-  .first-proj {
-    /*
-    width: 100%;
-    height: 100%;
-    */
-    background-size: cover;
-    background-image: url("../images/Project-Orange.png");
-  }
 
   .center-cell {
     justify-self: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     border-right: darkred;
     /*
     justify-content: center;
     align-items: center;
     */
   }
+
+  .form {
+    display: block;
+  }
+
+  /* Tablets - header changes color */
+  @media screen and (max-width: 992px) {
+    .text1 {
+      font-size: 36px;
+    }
+    .img1 {
+      width:80%;
+    }
+  }
+
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    .text1 {
+      font-size: 28px;
+    }
+    .img1 {
+      width:80%;
+    }
+  }
+
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .text1 {
+      font-size: 20px;
+    }
+    .img1 {
+      width:80%;
+    }
+  }
+
+  /* Google device emulator */
+  @media screen and (max-width: 479px) {
+    .text1 {
+      font-size: 18px;
+    }
+    .img1 {
+      width:80%;
+    }
+  }
+
+  .container1:hover {
+    opacity: 0.85;
+  }
+  

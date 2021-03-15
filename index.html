@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <img class="resize" src="./assets/images/WilliamPate.jpg" alt="Head portait of William Pate">
-        <h1>Portfolio of William Pate</h1>
+        <h1>How Not to Code a Web Page</h1>
         <nav class="nav1">
             <ul>
                 <li>
@@ -30,50 +30,50 @@
     </header>
 
     <!-- Large photo between header and content -->
- 
     <div>
         <img src="./assets/images/tapestry-of-bayeux2.png" alt="Portion of the tapestry of Bayeux" class="banner">
     </div>
 
     <div class="grid1">
-        <div class="center-cell">
+        <div id="about-me" class="center-cell text1">
             <p>About me</p>
         </div>
-        <div>
-            <p>I have two skill sets. The first skill set was recently acquired by taking the UPenn Coding Boot Camp for Full Stack programmers. This intense course lasts for 6 months during which I and my classmates learn HTML, CSS and JavaScript. The other skill set I have is the modeling, simulation and optimization of mineral processing operations. During the 35 years I spent in that field I programmed with the following: C, C++, C# and VBA.</p>
-        </div>
+        <section>
+            <p>My name is William (Bill) Pate. I have two skill sets. The first skill set was recently acquired by taking the UPenn Coding Boot Camp for Full Stack programmers. This intense course lasts for 6 months during which I and my classmates learn HTML, CSS and JavaScript. The other skill set I have is the modeling, simulation and optimization of mineral processing operations. During the 35 years I spent in that field I programmed with the following: C, C++, C# and VBA.</p>
+        </section>
 
         <!-- 2nd row of grid with label (Work) in first column and a flexbox of project images and links in second column -->
-        <div class="center-cell">Work</div>
-        <div class="flex-container">
-            <div>
-                <a href="https://github.com/minprocess/Portfolio/">
-                    <img src="./assets/images/Proj1-screenshot-40.png" alt="Screen capture of the webpage for my Portfolio project">
+        <div  id="work" class="center-cell text1">Work</div>
+        <section class="flex-container">
+            <div class=container1>
+                <a href="https://minprocess.github.io/Horiseon-Refactor/">
+                    <img class="img1" src="./assets/images/Proj1-screenshot-50.png" alt="Screen capture of the webpage for my Portfolio project">
                 </a>
             </div>
-            <div>
-                <a href="https://github.com/minprocess/Horiseon-Refactor/">
-                    <img src="./assets/images/Proj2-screenshot-33.png" alt="Screen capture of the webpage for my Portfolio project">
-                </a>    
+            <div class=container1>
+                <a href="https://minprocess.github.io/Portfolio/">
+                    <img class="img1" src="./assets/images/Proj2-screenshot-40.png" alt="Screen capture of the webpage for my Portfolio project">
+                </a>
             </div>
-            <div>
-                <img src="./assets/images/Project-Green.png" alt="Screen capture of the webpage for my Horiseon-Refactor project">
+            <div class=container1>
+                <img class="img1" src="./assets/images/Project-Green.png" alt="Screen capture of the webpage for my Horiseon-Refactor project">
             </div>
-        </div>
+        </section>
 
-        <div class="center-cell">Contact me</div>
-        <div>
+        <div id="contact-me" class="center-cell text1">Contact me</div>
+        <section>
             <p>Contact form</p>
             <label >E-mail</label>
             <input type="text">
+            </br>
             <label>Message</label>
             <input type="text">
-        </div>
+        </section>
 
-        <div style="width: 25%" class="center-cell">Resume</div>
-        <div>
+        <div  id="resume" class="center-cell text1">Resume</div>
+        <section>
             <a ref="#link">Linky link</a>
-        </div>
+        </section>
     </div>
 
        
