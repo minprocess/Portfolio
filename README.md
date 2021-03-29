@@ -1,6 +1,6 @@
 # <Portfolio>
 ## Description
-This web page describes me, William T Pate. It tells a little about me in the About Me section. Links to the public projects on my GitHub account are provided. A way to contact me are provided but doesn't actually work. This web page has only HTML and CSS elements and is in a simple unsophisticated state. Overtime it will be improved.
+This web page describes me, William T Pate. It tells a little about me in the About Me section. Links to the public projects on my GitHub account are provided. A way to contact me are provided but doesn't actually work. This web page has only HTML and CSS elements and is in a simple unsophisticated state. Overtime it will be improved. Test
 </br>
 This web page is a work in progress and will be continuously upgraded
 </br>
